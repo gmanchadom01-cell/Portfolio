@@ -1,15 +1,121 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Mi Portfolio | Proyectos</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div>
-    <a href="https://gmanchadom01-cell.github.io/13_Reloj_Juicio_Final/">Ejecucion</a>
-    <a href="https://github.com/gmanchadom01-cell/13_Reloj_Juicio_Final">Codigo</a>
-</div>  
+
+    <header class="cabecera">
+        <nav class="navegacion">
+            <a href="#" class="logo">MiPortfolio<span>.</span></a>
+
+            <div class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="presentacion">
+            <p class="etiqueta">DESARROLLO WEB</p>
+
+            <h1>Hola, soy <span>Gonzalo</span></h1>
+
+            <p class="descripcion">
+                Estudiante de desarrollo web. Aquí puedes encontrar
+                algunos de mis proyectos y trabajos.
+            </p>
+
+            <a href="#proyectos" class="boton">
+                Ver mis proyectos
+            </a>
+        </section>
+
+        <section id="proyectos" class="proyectos">
+
+            <div class="titulo-seccion">
+                <p class="etiqueta">MI TRABAJO</p>
+                <h2>Mis proyectos</h2>
+                <p>Una selección de proyectos que he desarrollado.</p>
+            </div>
+
+            <article class="tarjeta">
+
+                <div class="numero-proyecto">PROYECTO 01</div>
+
+                <h3>Reloj del Juicio Final</h3>
+
+                <p>
+                    Proyecto web que puedes consultar desde el navegador
+                    y cuyo código fuente está disponible en GitHub.
+                </p>
+
+                <div class="tecnologias">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="enlaces-proyecto">
+                    <a
+                        href="https://gmanchadom01-cell.github.io/13_Reloj_Juicio_Final/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="boton"
+                    >
+                        Ver proyecto ↗
+                    </a>
+
+                    <a
+                        href="https://github.com/gmanchadom01-cell/13_Reloj_Juicio_Final"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="enlace-codigo"
+                    >
+                        Ver código →
+                    </a>
+                </div>
+
+            </article>
+
+            <!-- Puedes añadir más proyectos aquí -->
+
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>¿Quieres ver más?</h2>
+            <p>
+                Puedes encontrar mis proyectos y su código fuente
+                en mi perfil de GitHub.
+            </p>
+
+            <a
+                href="https://github.com/gmanchadom01-cell"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="boton"
+            >
+                Mi GitHub ↗
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <p>© 2026 Gonzalo · Portfolio personal</p>
+    </footer>
+
 </body>
+
 </html>
